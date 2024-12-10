@@ -5,7 +5,7 @@
             padding: 0;
             font-family: Arial, sans-serif;
         }
-
+/*
 body::before {
   content: "";
   position: fixed;
@@ -20,7 +20,7 @@ body::before {
   background-repeat: no-repeat;
   filter: blur(5px);
   opacity: 0.5; 
-}
+}*/
         body {
             background-color: #f7f7f7;
             display: flex;

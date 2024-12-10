@@ -28,6 +28,7 @@ body::before {
             align-items: center;
             min-height: 100vh;
             padding: 20px;
+            background-image: url("https://github.com/NouvelleTechnologie/Ma-Boutique-de-vente-en-ligne/blob/main/img10.jpg");
         }
 
         .container {

@@ -6,9 +6,23 @@
             font-family: Arial, sans-serif;
         }
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-image: url("https://github.com/NouvelleTechnologie/Ma-Boutique-de-vente-en-ligne/blob/main/img10.jpg");    
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  opacity: 0.5; 
+}
         body {
             background-color: #f7f7f7;
-            background-image: url("/https://github.com/NouvelleTechnologie/Ma-Boutique-de-vente-en-ligne/blob/main/img10.jpg");
             display: flex;
             justify-content: center;
             align-items: center;

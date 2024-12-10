@@ -118,3 +118,19 @@
             margin-top: -10px;
             margin-bottom: 10px;
         }
+        #btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #btn:hover {
+            background-color: #2980b9;
+               }

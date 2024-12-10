@@ -118,7 +118,7 @@
             margin-top: -10px;
             margin-bottom: 10px;
         }
-        #btn {
+        .btnr {
             display: block;
             width: 100%;
             padding: 10px;
@@ -131,6 +131,6 @@
             transition: background-color 0.3s;
         }
 
-        #btn:hover {
+        .btnr:hover {
             background-color: #2980b9;
                }

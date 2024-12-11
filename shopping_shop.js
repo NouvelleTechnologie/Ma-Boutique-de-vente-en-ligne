@@ -70,7 +70,7 @@
 
                 const validateTelephone = () => {
                     const telephoneError = document.getElementById('telephoneError');
-                    const telephoneRegex = /^[0-9]{0}$/;
+                    const telephoneRegex = /^[0-9]{}$/;
                     if (!telephoneRegex.test(telephoneInput.value)) {
                         telephoneError.textContent = 'Numéro de téléphone invalide (10 chiffres)';
                         return false;
